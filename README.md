@@ -2,7 +2,7 @@
 
 # Task manager
 
-Management web application with user authentication, database, CRUD operations, attachment and viewing of files
+CRUD application with user authentication, database and attachment and viewing of files
  (.pdf e .txt).
 
 ## Technologies 
