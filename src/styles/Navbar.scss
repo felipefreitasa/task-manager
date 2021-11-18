@@ -1,0 +1,42 @@
+.navbar {
+   background: #00072d;
+
+   width: 100%;
+
+   overflow: hidden;
+
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+   > div {
+      display: flex;
+      align-items: center;
+
+      width: 90%;
+
+      margin: 0 auto;
+
+      @media (min-width: 0px) {
+         justify-content: center;
+
+         padding: 10px 0;
+      }
+
+      @media (min-width: 760px) {
+         justify-content: space-between;
+
+         padding: 0;
+      }
+
+      > img {
+         width: 70px;
+
+         @media (min-width: 0px) {
+            display: none;
+         }
+
+         @media (min-width: 760px) {
+            display: flex;
+         }
+      }
+   }
+}

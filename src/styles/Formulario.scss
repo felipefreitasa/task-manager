@@ -1,0 +1,100 @@
+.formulario-container {
+   background-color: #fefefe;
+
+   width: 90%;
+   border-radius: 6px;
+
+   margin: 20px auto;
+
+   overflow: hidden;
+
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+
+   > h2 {
+      color: #00072d;
+      font-weight: 600;
+      font-size: 16px;
+
+      padding: 10px;
+
+      text-align: center;
+   }
+
+   .botao-formulario {
+      background-color: #00072d;
+
+      color: #20e6e9;
+
+      &:hover{
+               background-color: #00072d;
+
+      }
+   }
+
+   .formulario-atividade {
+      padding: 20px 40px;
+
+      width: 100%;
+
+      border-top: 1px solid #e0e0e0;
+
+      background-color: #fff;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+      @media (min-width: 0) {
+         flex-direction: column;
+      }
+
+      @media (min-width: 900px) {
+         flex-direction: row;
+      }
+
+      > label {
+         > input {
+            display: none;
+         }
+      }
+
+      .formulario-atividade-input {
+         margin: 10px 0;
+
+         label.Mui-focused {
+            color: #00072d;
+         }
+
+         &.MuiInput-underline:after {
+            border-bottom-color: #00072d;
+         }
+
+         .MuiOutlinedInput-root {
+            > fieldset {
+               border-color: #00072d;
+            }
+            &:hover fieldset {
+               border-color: #00072d;
+            }
+            .Mui-focused fieldset {
+               border-color: #00072d;
+            }
+         }
+
+         &.MuiInput-underline:after {
+            border-bottom-color: yellow;
+         }
+
+         &.MuiOutlinedInput-root {
+            > fieldset {
+               border-color: #00072d;
+            }
+
+            &.Mui-focused fieldset {
+               border-color: #00072d;
+            }
+         }
+      }
+   }
+}

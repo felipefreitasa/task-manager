@@ -1,0 +1,50 @@
+.tabela-container {
+   margin: 20px auto;
+
+   border-radius: 6px;
+
+   overflow: hidden;
+
+   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+   
+   width: 90%;
+
+   > div {
+      > table {
+         
+         > thead {
+            background-color: #fefefe;
+            > tr {
+               > th {
+                  font-family: "Poppins", sans-serif;
+                  color: #00072d;
+                  font-weight: 600;
+                  font-size: 15px;
+               }
+            }
+         }
+
+         > tbody {
+            > tr {
+               > th,
+               td {
+                  font-family: "Poppins", sans-serif;
+                  color: #292929;
+                  font-weight: 400;
+                  font-size: 15px;
+               }
+            }
+         }
+
+        
+      }
+   }
+}
+
+
+.linear-progress {
+   > span {
+      background-color: #00072d;
+   }
+
+}
