@@ -1,9 +1,11 @@
+![Gifs (2)](https://user-images.githubusercontent.com/77179768/142469942-5d55e581-2511-473a-94a9-bfebc885d53d.png)
 
-# Taugor - Teste
+# Task manager
 
-Aplicação web desenvolvida para o controle de atividades, na qual o usuário logado pode incluir, editar, atualizar e excluir os itens.
+Management web application with user authentication, database, CRUD operations, attachment and viewing of files
+ (.pdf e .txt).
 
-## Tecnologias utilizadas
+## Technologies 
 
  - React (Hooks, React-Router-Dom, Function Components)
  - Firebase (Firestore Database, Authentication, Storage)
